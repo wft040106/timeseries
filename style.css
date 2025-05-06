@@ -2,7 +2,7 @@ html, body, #map {
   margin: 0;
   padding: 0;
   height: 100%;
-  width: 90%;
+  width: 100%;
   position: relative; /* 新增：为绝对定位子元素提供参照 */
 }
 
