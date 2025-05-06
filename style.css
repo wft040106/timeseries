@@ -1,0 +1,46 @@
+html, body, #map {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 90%;
+  position: relative; /* 新增：为绝对定位子元素提供参照 */
+}
+
+#sliderContainer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(237, 237, 237, 0.1);
+  z-index: 1000;
+  min-width: 300px;
+  text-align: center;
+}
+
+#sliderContainer input[type="range"] {
+  width: 100%;
+  margin: 0;
+}
+
+#sliderContainer .date-display {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  margin-top: 5px;
+}
+
+/* 如果是时间轴/进度条本身的样式 */
+#sliderContainer input[type="range"] {
+  width: 100%;
+  margin: 0;
+}
+
+#sliderContainer .date-display {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  margin-top: 5px;
+}
+  
